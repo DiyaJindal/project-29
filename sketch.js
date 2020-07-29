@@ -46,9 +46,6 @@ function draw() {
   rectMode(CENTER);
   background(225);
   Engine.update(engine);
-  text("x:"+mouseX,650,20)
-  text("y;"+mouseY,650,40)
-  strokeWeight(4);
 
 ball.display();
 ground.display();
